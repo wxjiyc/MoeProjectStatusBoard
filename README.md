@@ -6,7 +6,7 @@ Status board for Moe Project.
 
 | Repository                                          |   Type   | Open Source |  Status  | Description                                                          |
 |-----------------------------------------------------|:--------:|:-----------:|:--------:|----------------------------------------------------------------------|
-| AB-B760ITX-12100F-RX550-Hackintosh                  | Software |      √      |   WIP    | OpenCore EFI for AB-B760ITX-12100F-RX550-Hackintosh                  |  
+| AB-B760ITX-12100F-RX550-Hackintosh                  | Software |      √      |   LTS    | OpenCore EFI for AB-B760ITX-12100F-RX550-Hackintosh                  |  
 | JGINYUE-B660I-Snow-Dream-12490F-RX5600XT-Hackintosh | Software |      √      | Archived | OpenCore EFI for JGINYUE-B660I-Snow-Dream-12490F-RX5600XT-Hackintosh |
 | JGINYUE-H610I-GAMING-12100F-RX550-Hackintosh        | Software |      √      | Archived | OpenCore EFI for JGINYUE-H610I-GAMING-12100F-RX550-Hackintosh        |
 | Intel-NUC8i5BEH-Hackintosh                          | Software |      √      | Archived | OpenCore EFI for Intel-NUC8i5BEH-Hackintosh                          |
@@ -19,19 +19,19 @@ Status board for Moe Project.
 
 ## Network Interface Card Series
 
-| Repository                   |   Type   | Open Source | Status | Description |
-|------------------------------|:--------:|:-----------:|:------:|-------------|
-| M.2-AE-KEY-2.5G-RTL8125BG-CG | Hardware |      x      |  WIP   |             |  
-| M.2-AE-KEY-1G-RTL8111H       | Hardware |      x      |  WIP   |             |  
-| Mini-PCIe-2.5G-RTL8125BG-CG  | Hardware |      x      |  WIP   |             |
-| Mini-PCIe-1G-RTL8111H        | Hardware |      x      |  WIP   |             |
+| Repository                   |   Type   | Open Source | Status | Description    |
+|------------------------------|:--------:|:-----------:|:------:|----------------|
+| M.2-AE-KEY-2.5G-RTL8125BG-CG | Hardware |      x      |  WIP   | No description |  
+| M.2-AE-KEY-1G-RTL8111H       | Hardware |      x      |  WIP   | No description |  
+| Mini-PCIe-2.5G-RTL8125BG-CG  | Hardware |      x      |  WIP   | No description |
+| Mini-PCIe-1G-RTL8111H        | Hardware |      x      |  WIP   | No description |
 
 ## Adapter & Expansion Card Series
 
-| Repository             |   Type   | Open Source |  Status   | Description |
-|------------------------|:--------:|:-----------:|:---------:|-------------|
-| M.2-E-KEY-To-CNVi-NVMe | Hardware |      x      | Archived  |             |  
-| M.2-M-KEY-To-4-NVMe    | Hardware |      x      | Suspended |             |  
+| Repository             |   Type   | Open Source |  Status   | Description    |
+|------------------------|:--------:|:-----------:|:---------:|----------------|
+| M.2-E-KEY-To-CNVi-NVMe | Hardware |      x      | Archived  | No description |  
+| M.2-M-KEY-To-4-NVMe    | Hardware |      x      | Suspended | No description |  
 
 ## SBC Series
 
@@ -46,23 +46,25 @@ Status board for Moe Project.
 | ArmKVM-Docs        | Document |      √      |    LTS    | Generic image builder for ArmKVM hardware series |  
 | Image-Build        | Software |      x      |    LTS    | Generic image builder for ArmKVM hardware series |  
 | PiKVM-Build        | Software |      x      |    LTS    | PiKVM image builder for ArmKVM hardware series   |
+| ArmKVM-Build       | Software |      x      | Suspended | ArmKVM image builder for ArmKVM hardware series  |
 | ArmKVM-ustreamer   | Software |      x      |    WIP    | Modified ustreamer for PiKVM & ArmKVM            |
-| ArmKVM-Daemon-Lite | Software |      x      |    WIP    | Daemon for PiKVM                                 |
-| ArmKVM-Daemon      | Software |      x      | Suspended | Daemon for ArmKVM                                |
-| ArmKVM-Cloud       | Sardware |      x      |    WIP    | Cloud service for ArmKVM                         |
+| ArmKVM-Daemon-Lite | Software |      x      |    WIP    | Daemon for PiKVM image                           |
+| ArmKVM-Daemon      | Software |      x      | Suspended | Daemon for ArmKVM image                          |
+| ArmKVM-Cloud       | Software |      x      |    WIP    | Cloud service for ArmKVM series                  |
 | ArmKVM-Standard-V1 | Hardware |      x      | Archived  | 1st generation standard edition ArmKVM hardware  |  
 | ArmKVM-Standard-V2 | Hardware |      x      |    WIP    | 2st generation standard edition ArmKVM hardware  |  
 | ArmKVM-Pro-V1      | Hardware |      x      |    WIP    | 1st generation pro edition ArmKVM hardware       |
-| ArmKVM-Pro-V1      | Hardware |      x      |    WIP    | 1st generation pro edition ArmKVM hardware       |
+| ArmKVM-Rack-V1     | Hardware |      x      |    WIP    | 1st generation rack edition ArmKVM hardware      |
 
 ## Capture Module Series
 
-| Repository              |   Type   | Open Source |  Status  | Description                                                |
-|-------------------------|:--------:|:-----------:|:--------:|------------------------------------------------------------|
-| HDMI-MS2109-V1          | Hardware |      x      | Archived | 1st generation HDMI capture module (Chip: MS2109)          |
-| VGA2HDMI-MS9288C-V1     | Hardware |      x      | Archived | 1st generation VGA to HDMI module (Chip: MS9288C)          |
-| VGA-V1                  | Hardware |      x      | Archived | 1st generation VGA capture module (Chip: MS2109 & MS9288C) |
-| HDMI2CSI-TC358743XBG-V1 | Hardware |      x      |   WIP    | 1st generation HDMI to CSI module (Chip: TC358743XBG)      |
+| Repository              |   Type   | Open Source |  Status   | Description                                                |
+|-------------------------|:--------:|:-----------:|:---------:|------------------------------------------------------------|
+| HDMI-MS2109-V1          | Hardware |      x      | Archived  | 1st generation HDMI capture module (Chip: MS2109)          |
+| HDMI-MS2130-V1          | Hardware |      x      | Suspended | 1st generation HDMI capture module (Chip: MS2130)          |
+| VGA2HDMI-MS9288C-V1     | Hardware |      x      | Archived  | 1st generation VGA to HDMI module (Chip: MS9288C)          |
+| VGA-MS2109-MS9288C-V1   | Hardware |      x      | Archived  | 1st generation VGA capture module (Chip: MS2109 & MS9288C) |
+| HDMI2CSI-TC358743XBG-V1 | Hardware |      x      |    WIP    | 1st generation HDMI to CSI module (Chip: TC358743XBG)      |
 
 ## Others
 
