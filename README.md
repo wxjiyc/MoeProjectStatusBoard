@@ -4,18 +4,18 @@ Status board for Moe Project.
 
 ## Hackintosh Series
 
-| Repository                                          |   Type   | Open Source |  Status  | Description                                                          |
-|-----------------------------------------------------|:--------:|:-----------:|:--------:|----------------------------------------------------------------------|
-| AB-B760ITX-12100F-RX550-Hackintosh                  | Software |      √      |   LTS    | OpenCore EFI for AB-B760ITX-12100F-RX550-Hackintosh                  |  
-| JGINYUE-B660I-Snow-Dream-12490F-RX5600XT-Hackintosh | Software |      √      | Archived | OpenCore EFI for JGINYUE-B660I-Snow-Dream-12490F-RX5600XT-Hackintosh |
-| JGINYUE-H610I-GAMING-12100F-RX550-Hackintosh        | Software |      √      | Archived | OpenCore EFI for JGINYUE-H610I-GAMING-12100F-RX550-Hackintosh        |
-| Intel-NUC8i5BEH-Hackintosh                          | Software |      √      | Archived | OpenCore EFI for Intel-NUC8i5BEH-Hackintosh                          |
-| FunHouse-F10-MPro-1005G1-1065G7-Hackintosh          | Software |      √      | Archived | OpenCore EFI for FunHouse-F10-MPro-1005G1-1065G7-Hackintosh          |
-| CHUWI-CoreBook-X-2022-8259U-Hackintosh              | Software |      √      | Archived | OpenCore EFI for CHUWI-CoreBook-X-2022-8259U-Hackintosh              |
-| CHUWI-CoreBook-X-7267U-Hackintosh                   | Software |      √      | Archived | OpenCore EFI for CHUWI-CoreBook-X-7267U-Hackintosh                   |
-| ASUS-H110T-KBL-Hackintosh                           | Software |      √      | Archived | OpenCore EFI for ASUS-H110T-KBL-Hackintosh                           |
-| Lenovo-M710q-QNCT-Hackintosh                        | Software |      √      | Archived | OpenCore EFI for Lenovo-M710q-QNCT-Hackintosh                        |
-| Lenovo-M900q-M8600q-M700-M6600q-QHPW-AMT-Hackintosh | Software |      √      | Archived | OpenCore EFI for Lenovo-M900q-M8600q-M700-M6600q-QHPW-AMT-Hackintosh |
+| Repository                                          |   Type   | Open Source |  Status   | Description                                                          |
+|-----------------------------------------------------|:--------:|:-----------:|:---------:|----------------------------------------------------------------------|
+| AB-B760ITX-12100F-RX550-Hackintosh                  | Software |      √      |    LTS    | OpenCore EFI for AB-B760ITX-12100F-RX550-Hackintosh                  |  
+| JGINYUE-B660I-Snow-Dream-12490F-RX5600XT-Hackintosh | Software |      √      |    EOL    | OpenCore EFI for JGINYUE-B660I-Snow-Dream-12490F-RX5600XT-Hackintosh |
+| JGINYUE-H610I-GAMING-12100F-RX550-Hackintosh        | Software |      √      |    EOL    | OpenCore EFI for JGINYUE-H610I-GAMING-12100F-RX550-Hackintosh        |
+| Intel-NUC8i5BEH-Hackintosh                          | Software |      √      | Suspended | OpenCore EFI for Intel-NUC8i5BEH-Hackintosh                          |
+| FunHouse-F10-MPro-1005G1-1065G7-Hackintosh          | Software |      √      |    EOL    | OpenCore EFI for FunHouse-F10-MPro-1005G1-1065G7-Hackintosh          |
+| CHUWI-CoreBook-X-2022-8259U-Hackintosh              | Software |      √      | Suspended | OpenCore EFI for CHUWI-CoreBook-X-2022-8259U-Hackintosh              |
+| CHUWI-CoreBook-X-7267U-Hackintosh                   | Software |      √      |    EOL    | OpenCore EFI for CHUWI-CoreBook-X-7267U-Hackintosh                   |
+| ASUS-H110T-KBL-Hackintosh                           | Software |      √      |    EOL    | OpenCore EFI for ASUS-H110T-KBL-Hackintosh                           |
+| Lenovo-M710q-QNCT-Hackintosh                        | Software |      √      |    EOL    | OpenCore EFI for Lenovo-M710q-QNCT-Hackintosh                        |
+| Lenovo-M900q-M8600q-M700-M6600q-QHPW-AMT-Hackintosh | Software |      √      |    EOL    | OpenCore EFI for Lenovo-M900q-M8600q-M700-M6600q-QHPW-AMT-Hackintosh |
 
 ## Network Interface Card Series
 
@@ -41,20 +41,23 @@ Status board for Moe Project.
 
 ## ArmKVM Series
 
-| Repository         |   Type   | Open Source |  Status   | Description                                      |
-|--------------------|:--------:|:-----------:|:---------:|--------------------------------------------------|
-| ArmKVM-Docs        | Document |      √      |    LTS    | Generic image builder for ArmKVM hardware series |  
-| Image-Build        | Software |      x      |    LTS    | Generic image builder for ArmKVM hardware series |  
-| PiKVM-Build        | Software |      x      |    LTS    | PiKVM image builder for ArmKVM hardware series   |
-| ArmKVM-Build       | Software |      x      | Suspended | ArmKVM image builder for ArmKVM hardware series  |
-| ArmKVM-ustreamer   | Software |      x      |    WIP    | Modified ustreamer for PiKVM & ArmKVM            |
-| ArmKVM-Daemon-Lite | Software |      x      |    WIP    | Daemon for PiKVM image                           |
-| ArmKVM-Daemon      | Software |      x      | Suspended | Daemon for ArmKVM image                          |
-| ArmKVM-Cloud       | Software |      x      |    WIP    | Cloud service for ArmKVM series                  |
-| ArmKVM-Standard-V1 | Hardware |      x      | Archived  | 1st generation standard edition ArmKVM hardware  |  
-| ArmKVM-Standard-V2 | Hardware |      x      |    WIP    | 2st generation standard edition ArmKVM hardware  |  
-| ArmKVM-Pro-V1      | Hardware |      x      |    WIP    | 1st generation pro edition ArmKVM hardware       |
-| ArmKVM-Rack-V1     | Hardware |      x      |    WIP    | 1st generation rack edition ArmKVM hardware      |
+| Repository         |   Type   | Open Source |  Status   | Description                                          |
+|--------------------|:--------:|:-----------:|:---------:|------------------------------------------------------|
+| ArmKVM-Docs        | Document |      √      |    LTS    | Generic image builder for ArmKVM hardware series     |  
+| Image-Build        | Software |      x      |    LTS    | Generic image builder for ArmKVM hardware series     |  
+| PiKVM-Build        | Software |      x      |    LTS    | PiKVM image builder for ArmKVM hardware series       |
+| ArmKVM-Build       | Software |      x      | Suspended | ArmKVM image builder for ArmKVM hardware series      |
+| ArmKVM-ustreamer   | Software |      x      |    WIP    | Modified ustreamer for PiKVM & ArmKVM                |
+| ArmKVM-Daemon-Lite | Software |      x      |    WIP    | Daemon for PiKVM image                               |
+| ArmKVM-Daemon      | Software |      x      | Suspended | Daemon for ArmKVM image                              |
+| ArmKVM-Cloud       | Software |      x      |    WIP    | Cloud service for ArmKVM series                      |
+| ArmKVM-Standard-V1 | Hardware |      x      | Archived  | 1st generation standard edition ArmKVM hardware      |  
+| ArmKVM-Standard-V2 | Hardware |      x      |    WIP    | 2st generation standard edition ArmKVM hardware      |  
+| ArmKVM-PCIe-V1     | Hardware |      x      |    WIP    | 1st generation pcie edition ArmKVM hardware          |
+| ArmKVM-PCIe-V2     | Hardware |      x      | Suspended | 1st generation pcie edition ArmKVM hardware          |
+| ArmKVM-Pro-V1      | Hardware |      x      |    WIP    | 1st generation pro edition ArmKVM hardware           |
+| ArmKVM-Rack-V1     | Hardware |      x      | Suspended | 1st generation rack standard edition ArmKVM hardware |
+| ArmKVM-Rack-Pro-V1 | Hardware |      x      | Suspended | 1st generation rack pro edition ArmKVM hardware      |
 
 ## Capture Module Series
 
