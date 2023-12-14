@@ -6,7 +6,7 @@ Status board for Moe Project.
 
 | Repository                                          |   Type   | Open Source |  Status   | Description                                                          |
 |-----------------------------------------------------|:--------:|:-----------:|:---------:|----------------------------------------------------------------------|
-| AB-B760ITX-12100F-RX550-Hackintosh                  | Software |      √      |    LTS    | OpenCore EFI for AB-B760ITX-12100F-RX550-Hackintosh                  |  
+| AB-B760ITX-12100F-RX550-Hackintosh                  | Software |      √      |    LTS    | OpenCore EFI for AB-B760ITX-12100F-RX550-Hackintosh                  |
 | JGINYUE-B660I-Snow-Dream-12490F-RX5600XT-Hackintosh | Software |      √      |    EOL    | OpenCore EFI for JGINYUE-B660I-Snow-Dream-12490F-RX5600XT-Hackintosh |
 | JGINYUE-H610I-GAMING-12100F-RX550-Hackintosh        | Software |      √      |    EOL    | OpenCore EFI for JGINYUE-H610I-GAMING-12100F-RX550-Hackintosh        |
 | Intel-NUC8i5BEH-Hackintosh                          | Software |      √      | Suspended | OpenCore EFI for Intel-NUC8i5BEH-Hackintosh                          |
@@ -21,38 +21,38 @@ Status board for Moe Project.
 
 | Repository                   |   Type   | Open Source | Status | Description    |
 |------------------------------|:--------:|:-----------:|:------:|----------------|
-| M.2-AE-KEY-2.5G-RTL8125BG-CG | Hardware |      x      |  WIP   | No description |  
-| M.2-AE-KEY-1G-RTL8111H       | Hardware |      x      |  WIP   | No description |  
-| Mini-PCIe-2.5G-RTL8125BG-CG  | Hardware |      x      |  WIP   | No description |
-| Mini-PCIe-1G-RTL8111H        | Hardware |      x      |  WIP   | No description |
+| M.2-AE-KEY-2.5G-RTL8125BG-CG | Hardware |      x      |  Suspended   | No description |
+| M.2-AE-KEY-1G-RTL8111H       | Hardware |      x      |  Suspended   | No description |
+| Mini-PCIe-2.5G-RTL8125BG-CG  | Hardware |      x      |  Suspended   | No description |
+| Mini-PCIe-1G-RTL8111H        | Hardware |      x      |  Suspended   | No description |
 
 ## Adapter & Expansion Card Series
 
 | Repository             |   Type   | Open Source |  Status   | Description    |
 |------------------------|:--------:|:-----------:|:---------:|----------------|
-| M.2-E-KEY-To-CNVi-NVMe | Hardware |      x      | Archived  | No description |  
-| M.2-M-KEY-To-4-NVMe    | Hardware |      x      | Suspended | No description |  
+| M.2-E-KEY-To-CNVi-NVMe | Hardware |      x      | Archived  | No description |
+| M.2-M-KEY-To-4-NVMe    | Hardware |      x      | Suspended | No description |
 
 ## SBC Series
 
 | Repository |   Type   | Open Source | Status | Description            |
 |------------|:--------:|:-----------:|:------:|------------------------|
-| ArmPi-V1   | Hardware |      x      |  WIP   | SBC with Allwinner V3s |  
+| ArmPi-V1   | Hardware |      x      |  Suspended   | SBC with Allwinner V3s |
 
 ## ArmKVM Series
 
 | Repository         |   Type   | Open Source |  Status   | Description                                          |
 |--------------------|:--------:|:-----------:|:---------:|------------------------------------------------------|
-| ArmKVM-Docs        | Document |      √      |    LTS    | Generic image builder for ArmKVM hardware series     |  
-| Image-Build        | Software |      x      |    LTS    | Generic image builder for ArmKVM hardware series     |  
+| ArmKVM-Docs        | Document |      √      |    LTS    | Generic image builder for ArmKVM hardware series     |
+| Image-Build        | Software |      x      |    LTS    | Generic image builder for ArmKVM hardware series     |
 | PiKVM-Build        | Software |      x      |    LTS    | PiKVM image builder for ArmKVM hardware series       |
 | ArmKVM-Build       | Software |      x      | Suspended | ArmKVM image builder for ArmKVM hardware series      |
-| ArmKVM-ustreamer   | Software |      x      |    WIP    | Modified ustreamer for PiKVM & ArmKVM                |
+| ArmKVM-ustreamer   | Software |      x      | Suspended | Modified ustreamer for PiKVM & ArmKVM                |
 | ArmKVM-Daemon-Lite | Software |      x      |    WIP    | Daemon for PiKVM image                               |
 | ArmKVM-Daemon      | Software |      x      | Suspended | Daemon for ArmKVM image                              |
 | ArmKVM-Cloud       | Software |      x      |    WIP    | Cloud service for ArmKVM series                      |
-| ArmKVM-Standard-V1 | Hardware |      x      | Archived  | 1st generation standard edition ArmKVM hardware      |  
-| ArmKVM-Standard-V2 | Hardware |      x      |    WIP    | 2st generation standard edition ArmKVM hardware      |  
+| ArmKVM-Standard-V1 | Hardware |      x      | Archived  | 1st generation standard edition ArmKVM hardware      |
+| ArmKVM-Standard-V2 | Hardware |      x      |    EIP    | 2st generation standard edition ArmKVM hardware      |
 | ArmKVM-PCIe-V1     | Hardware |      x      |    WIP    | 1st generation pcie edition ArmKVM hardware          |
 | ArmKVM-PCIe-V2     | Hardware |      x      | Suspended | 1st generation pcie edition ArmKVM hardware          |
 | ArmKVM-Pro-V1      | Hardware |      x      |    WIP    | 1st generation pro edition ArmKVM hardware           |
