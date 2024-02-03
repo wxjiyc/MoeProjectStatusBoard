@@ -35,28 +35,29 @@ Status board for Moe Project.
 
 ## SBC Series
 
-| Repository |   Type   | Open Source |  Status   | Description            |
-|------------|:--------:|:-----------:|:---------:|------------------------|
-| ArmPi-V1   | Hardware |      x      | Suspended | SBC with Allwinner V3s |
+| Repository |   Type   | Open Source |  Status   | Description               |
+|------------|:--------:|:-----------:|:---------:|---------------------------|
+| ArmPi-V1   | Hardware |      x      | Suspended | SBC with Allwinner V851se |
 
 ## ArmKVM Series
 
-| Repository         |   Type   | Open Source |   Status   | Description                                          |
-|--------------------|:--------:|:-----------:|:----------:|------------------------------------------------------|
-| ArmKVM-Docs        | Document |      √      |    LTS     | Generic image builder for ArmKVM hardware series     |
-| Image-Build        | Software |      x      |    LTS     | Generic image builder for ArmKVM hardware series     |
-| PiKVM-Build        | Software |      x      |    LTS     | PiKVM image builder for ArmKVM hardware series       |
-| ArmKVM-Build       | Software |      x      | Suspended  | ArmKVM image builder for ArmKVM hardware series      |
-| ArmKVM-ustreamer   | Software |      x      | Suspended  | Modified ustreamer for PiKVM & ArmKVM                |
-| ArmKVM-Daemon-Lite | Software |      x      |    WIP     | Daemon for PiKVM image                               |
-| ArmKVM-Daemon      | Software |      x      | Suspended  | Daemon for ArmKVM image                              |
-| ArmKVM-Cloud       | Software |      x      |    WIP     | Cloud service for ArmKVM series                      |
-| ArmKVM-Standard-V1 | Hardware |      x      |  Archived  | 1st generation standard edition ArmKVM hardware      |
-| ArmKVM-Standard-V2 | Hardware |      x      | Deprecated | 2st generation standard edition ArmKVM hardware      |
-| ArmKVM-PCIe-V1     | Hardware |      x      |    WIP     | 1st generation pcie edition ArmKVM hardware          |
-| ArmKVM-Pro-V1      | Hardware |      x      |    WIP     | 1st generation pro edition ArmKVM hardware           |
-| ArmKVM-Rack-V1     | Hardware |      x      | Suspended  | 1st generation rack standard edition ArmKVM hardware |
-| ArmKVM-Rack-Pro-V1 | Hardware |      x      | Suspended  | 1st generation rack pro edition ArmKVM hardware      |
+| Repository               |   Type   | Open Source |  Status   | Description                                          |
+|--------------------------|:--------:|:-----------:|:---------:|------------------------------------------------------|
+| ArmKVM-Docs              | Document |      √      |    LTS    | Generic image builder for ArmKVM hardware series     |
+| Image-Build              | Software |      x      |    LTS    | Generic image builder for ArmKVM hardware series     |
+| PiKVM-Build              | Software |      x      |    LTS    | PiKVM image builder for ArmKVM hardware series       |
+| ArmKVM-Build             | Software |      x      | Suspended | ArmKVM image builder for ArmKVM hardware series      |
+| ArmKVM-ustreamer         | Software |      x      | Suspended | Modified ustreamer for PiKVM & ArmKVM                |
+| ArmKVM-Daemon-Lite       | Software |      x      |    WIP    | Daemon for PiKVM image                               |
+| ArmKVM-Daemon            | Software |      x      | Suspended | Daemon for ArmKVM image                              |
+| ArmKVM-Cloud             | Software |      x      |    WIP    | Cloud service for ArmKVM series                      |
+| ArmKVM-Standard-V1       | Hardware |      x      | Archived  | 1st generation standard edition ArmKVM hardware      |
+| ArmKVM-Standard-V2       | Hardware |      x      |    WIP    | 2st generation standard edition ArmKVM hardware      |
+| ArmKVM-PCIe-V1           | Hardware |      x      | Suspended | 1st generation pcie edition ArmKVM hardware          |
+| ArmKVM-Pro-V1            | Hardware |      x      |    WIP    | 1st generation pro edition ArmKVM hardware           |
+| ArmKVM-Rack-V1           | Hardware |      x      | Suspended | 1st generation rack standard edition ArmKVM hardware |
+| ArmKVM-Rack-Pro-V1       | Hardware |      x      | Suspended | 1st generation rack pro edition ArmKVM hardware      |
+| ArmKVM-HDMI-Switch-C3-V1 | Hardware |      x      | Suspended | 1st generation 3 channel ArmKVM HDMI Switch hardware |
 
 ## Capture Module Series
 
@@ -65,8 +66,9 @@ Status board for Moe Project.
 | HDMI-MS2109-V1          | Hardware |      x      | Archived  | 1st generation HDMI capture module (Chip: MS2109)          |
 | HDMI-MS2130-V1          | Hardware |      x      | Suspended | 1st generation HDMI capture module (Chip: MS2130)          |
 | VGA2HDMI-MS9288C-V1     | Hardware |      x      | Archived  | 1st generation VGA to HDMI module (Chip: MS9288C)          |
-| VGA-MS2109-MS9288C-V1   | Hardware |      x      | Archived  | 1st generation VGA capture module (Chip: MS2109 & MS9288C) |
-| HDMI2CSI-TC358743XBG-V1 | Hardware |      x      |    WIP    | 1st generation HDMI to CSI module (Chip: TC358743XBG)      |
+| VGA-V1                  | Hardware |      x      | Archived  | 1st generation VGA capture module (Chip: MS2109 & MS9288C) |
+| VGA-V2                  | Hardware |      x      |    WIP    | 2st generation VGA capture module (Chip: MS2130 & MS9288C) |
+| HDMI2CSI-TC358743XBG-V1 | Hardware |      x      | Archived  | 1st generation HDMI to CSI module (Chip: TC358743XBG)      |
 
 ## Others
 
